@@ -1,0 +1,11 @@
+{
+  "zosversion": "2",
+  "name": "tcr-modular-example",
+  "version": "0.1.0",
+  "contracts": {},
+  "dependencies": {
+    "tcr-modular": "^0.1.0",
+    "openzeppelin-eth": "^2.0.2",
+    "plcr-voting": "^0.1.1"
+  }
+}

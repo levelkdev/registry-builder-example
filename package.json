@@ -1,0 +1,31 @@
+{
+  "name": "tcr-modular-example",
+  "version": "0.1.0",
+  "dependencies": {
+    "dotenv": "^6.1.0",
+    "openzeppelin-eth": "^2.0.2",
+    "plcr-voting": "^0.1.2",
+    "tcr-modular": "^0.1.0",
+    "truffle-hdwallet-provider": "^0.0.3"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.24.1",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "babel-register": "^6.26.0",
+    "colors": "^1.3.2",
+    "ganache-cli": "^6.1.8",
+    "shelljs": "^0.8.2",
+    "truffle": "4.1.14",
+    "zos-lib": "^2.0.0"
+  },
+  "scripts": {
+    "deploy": "truffle exec deploy/deploy.js --network ${1:-development}",
+    "start-ganache": "bash bin/startGanache.sh",
+    "clean": "rm -rf build",
+    "compile": "npm run clean && truffle compile --all"
+  }
+}
