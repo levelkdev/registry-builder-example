@@ -24,7 +24,6 @@
   },
   "scripts": {
     "deploy": "truffle exec deploy/deploy.js --network ${1:-development}",
-    "start-ganache": "bash bin/startGanache.sh",
     "clean": "rm -rf build",
     "compile": "npm run clean && truffle compile --all"
   }
