@@ -1,8 +1,8 @@
-# tcr-modular-example
+# registry-builder-example
 
-An example of how to use the tcr-modular library with ZeppelinOS
+An example of how to use the registry-builder library with ZeppelinOS
 
-https://github.com/levelkdev/tcr-modular
+https://github.com/levelkdev/registry-builder
 
 ```
 $ zos push --deploy-dependencies --network development

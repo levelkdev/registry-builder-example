@@ -1,11 +1,11 @@
 {
-  "name": "tcr-modular-example",
+  "name": "registry-builder-example",
   "version": "0.1.0",
   "dependencies": {
     "dotenv": "^6.1.0",
     "openzeppelin-eth": "^2.0.2",
     "plcr-voting": "^0.1.2",
-    "tcr-modular": "^0.1.0",
+    "registry-builder": "^0.1.0",
     "truffle-hdwallet-provider": "^0.0.3"
   },
   "devDependencies": {
